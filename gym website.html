@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ELITE FITNESS GYM - Transform Your Body in 30 Days. Lusaka's fastest-growing gym. Real results. Real coaches.">
+    <title>ELITE FITNESS GYM - 30 Day Transformation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER / NAV -->
+    <header class="header" id="header">
+        <div class="container header__container">
+            <h1 class="logo">
+                <span class="logo__icon">⚡</span>
+                <span class="logo__text">ELITE FITNESS</span>
+            </h1>
+            <nav class="nav">
+                <a href="#offer" class="nav__link">Free Trial</a>
+                <a href="#services" class="nav__link">Services</a>
+                <a href="#transformations" class="nav__link">Results</a>
+                <a href="#testimonials" class="nav__link">Reviews</a>
+                <a href="#pricing" class="nav__link">Plans</a>
+                <a href="#contact" class="nav__link">Contact</a>
+            </nav>
+            <a href="#contact" class="btn btn--header cta-nav">Join Now</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="hero__background"></div>
+        <div class="container hero__container">
+            <div class="hero__content">
+                <div class="urgency-badge">
+                    <span class="urgency-badge__icon">⏰</span>
+                    <span class="urgency-badge__text">LIMITED TIME: FREE 3-DAY TRIAL + BODY ASSESSMENT</span>
+                </div>
+                <h2 class="hero__heading">
+                    TRANSFORM YOUR BODY<br>
+                    <span class="hero__highlight">IN 30 DAYS</span>
+                </h2>
+                <p class="hero__subheading">LUSAKA'S FASTEST-GROWING GYM. REAL RESULTS. REAL COACHES.</p>
+                <p class="hero__description">Join our community of transformers. Certified trainers. Personalized plans. Guaranteed results or your money back. Only <span id="spots-count" class="spots-highlight">15</span> spots available this month.</p>
+                <div class="hero__cta-group">
+                    <a href="#offer" class="btn btn--primary">Start Free Trial</a>
+                    <a href="#" onclick="whatsappChat()" class="btn btn--secondary">Chat on WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OFFER SECTION -->
+    <section id="offer" class="offer">
+        <div class="offer__background"></div>
+        <div class="container offer__container">
+            <h2 class="offer__heading">🔥 3-DAY FREE TRIAL</h2>
+            <p class="offer__description">Unlock your potential with our limited-time offer</p>
+            <div class="offer__countdown">
+                <div class="countdown__item">
+                    <div class="countdown__number" id="spots-update">15</div>
+                    <div class="countdown__label">SPOTS LEFT</div>
+                </div>
+                <div class="countdown__item">
+                    <div class="countdown__number" id="timer">15:00</div>
+                    <div class="countdown__label">OFFER EXPIRES</div>
+                </div>
+                <div class="countdown__item">
+                    <div class="countdown__number">100%</div>
+                    <div class="countdown__label">NO CC NEEDED</div>
+                </div>
+            </div>
+            <ul class="offer__benefits">
+                <li class="offer__benefit">✅ Free 3-Day Gym Pass - Full Access</li>
+                <li class="offer__benefit">✅ Free Body Assessment - Know Your Baseline</li>
+                <li class="offer__benefit">✅ Custom Workout Plan - Personalized for You</li>
+                <li class="offer__benefit">✅ Nutrition Consultation - Guidance Included</li>
+            </ul>
+            <a href="#contact" class="btn btn--offer">CLAIM YOUR FREE TRIAL</a>
+            <p class="offer__warning">⚠️ Only <span id="warning-spots">15</span> spots available this month. Claim yours now!</p>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+        <div class="container services__container">
+            <h2 class="section-title">WHAT YOU GET</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="service-card__icon">💪</div>
+                    <h3 class="service-card__title">Personal Training</h3>
+                    <p class="service-card__description">1-on-1 certified coaching for personalized, faster results</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">🔥</div>
+                    <h3 class="service-card__title">Weight Loss</h3>
+                    <p class="service-card__description">Proven methods to burn fat and stay consistent</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">💯</div>
+                    <h3 class="service-card__title">Muscle Building</h3>
+                    <p class="service-card__description">Build strength and size with expert guidance</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">🍎</div>
+                    <h3 class="service-card__title">Nutrition Planning</h3>
+                    <p class="service-card__description">Custom meal plans tailored to your goals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRANSFORMATIONS SECTION -->
+    <section class="transformations" id="transformations">
+        <div class="container transformations__container">
+            <h2 class="section-title">REAL RESULTS - REAL PEOPLE</h2>
+            <div class="transformation-grid">
+                <div class="transformation-card">
+                    <div class="transformation-card__images">
+                        <div class="transformation-card__image transformation-card__image--before">
+                            <img src="https://images.unsplash.com/photo-1566626171429-22eed5eaf97f?w=300&h=350&fit=crop" alt="Before - John M." loading="lazy">
+                            <span class="transformation-card__label">BEFORE</span>
+                        </div>
+                        <div class="transformation-card__image transformation-card__image--after">
+                            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=300&h=350&fit=crop" alt="After - John M." loading="lazy">
+                            <span class="transformation-card__label">AFTER</span>
+                        </div>
+                    </div>
+                    <div class="transformation-card__info">
+                        <h4 class="transformation-card__name">John M. - Lost 8kg</h4>
+                        <p class="transformation-card__quote">"Lost 8kg in 6 weeks with the gym's personalized plan!"</p>
+                    </div>
+                </div>
+
+                <div class="transformation-card">
+                    <div class="transformation-card__images">
+                        <div class="transformation-card__image transformation-card__image--before">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=350&fit=crop" alt="Before - Sarah K." loading="lazy">
+                            <span class="transformation-card__label">BEFORE</span>
+                        </div>
+                        <div class="transformation-card__image transformation-card__image--after">
+                            <img src="https://images.unsplash.com/photo-1594381898348-846ce32e67d7?w=300&h=350&fit=crop" alt="After - Sarah K." loading="lazy">
+                            <span class="transformation-card__label">AFTER</span>
+                        </div>
+                    </div>
+                    <div class="transformation-card__info">
+                        <h4 class="transformation-card__name">Sarah K. - Built Confidence</h4>
+                        <p class="transformation-card__quote">"Built muscle and confidence in just 30 days!"</p>
+                    </div>
+                </div>
+
+                <div class="transformation-card">
+                    <div class="transformation-card__images">
+                        <div class="transformation-card__image transformation-card__image--before">
+                            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=300&h=350&fit=crop" alt="Before - Alex P." loading="lazy">
+                            <span class="transformation-card__label">BEFORE</span>
+                        </div>
+                        <div class="transformation-card__image transformation-card__image--after">
+                            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=300&h=350&fit=crop" alt="After - Alex P." loading="lazy">
+                            <span class="transformation-card__label">AFTER</span>
+                        </div>
+                    </div>
+                    <div class="transformation-card__info">
+                        <h4 class="transformation-card__name">Alex P. - Complete Transformation</h4>
+                        <p class="transformation-card__quote">"The coaches changed my life. Best investment ever!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials" id="testimonials">
+        <div class="container testimonials__container">
+            <h2 class="section-title">WHAT OUR MEMBERS SAY</h2>
+            <div class="testimonials__grid">
+                <div class="testimonial-card">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop" alt="Member 1" class="testimonial-card__avatar" loading="lazy">
+                    <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-card__text">"The trainers actually care. The facilities are amazing. Worth every kwacha!"</p>
+                    <p class="testimonial-card__author">- Mwangi L.</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=60&h=60&fit=crop" alt="Member 2" class="testimonial-card__avatar" loading="lazy">
+                    <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-card__text">"Best gym in Lusaka. The community is incredible. I feel at home here."</p>
+                    <p class="testimonial-card__author">- Zara M.</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop" alt="Member 3" class="testimonial-card__avatar" loading="lazy">
+                    <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-card__text">"Free trial sold me immediately. Results backed everything up!"</p>
+                    <p class="testimonial-card__author">- Chanda K.</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=60&h=60&fit=crop" alt="Member 4" class="testimonial-card__avatar" loading="lazy">
+                    <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-card__text">"Transformed in 30 days. The nutrition guidance was game-changing!"</p>
+                    <p class="testimonial-card__author">- Amos W.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section class="pricing" id="pricing">
+        <div class="container pricing__container">
+            <h2 class="section-title">MEMBERSHIP PLANS</h2>
+            <div class="pricing__grid">
+                <div class="pricing-card">
+                    <h3 class="pricing-card__name">STARTER</h3>
+                    <div class="pricing-card__price">K300</div>
+                    <div class="pricing-card__period">Per Month</div>
+                    <ul class="pricing-card__features">
+                        <li class="pricing-card__feature">Gym Access 24/7</li>
+                        <li class="pricing-card__feature">All Equipment</li>
+                        <li class="pricing-card__feature">App Access</li>
+                        <li class="pricing-card__feature">Monthly Check-in</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--primary pricing-card__btn">Get Started</a>
+                </div>
+
+                <div class="pricing-card pricing-card--featured">
+                    <div class="pricing-card__badge">MOST POPULAR</div>
+                    <h3 class="pricing-card__name">PREMIUM</h3>
+                    <div class="pricing-card__price">K800</div>
+                    <div class="pricing-card__period">Per Month</div>
+                    <ul class="pricing-card__features">
+                        <li class="pricing-card__feature">24/7 Gym Access</li>
+                        <li class="pricing-card__feature">Personal Trainer (4x/month)</li>
+                        <li class="pricing-card__feature">Nutrition Planning</li>
+                        <li class="pricing-card__feature">Priority Support</li>
+                        <li class="pricing-card__feature">Body Composition Scans</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--primary pricing-card__btn">Get Started</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3 class="pricing-card__name">ELITE</h3>
+                    <div class="pricing-card__price">K1,500</div>
+                    <div class="pricing-card__period">Per Month</div>
+                    <ul class="pricing-card__features">
+                        <li class="pricing-card__feature">Everything in Premium</li>
+                        <li class="pricing-card__feature">Unlimited 1-on-1 Coaching</li>
+                        <li class="pricing-card__feature">Meal Prep Consultations</li>
+                        <li class="pricing-card__feature">Monthly Assessments</li>
+                        <li class="pricing-card__feature">Priority Equipment Access</li>
+                    </ul>
+                    <a href="#contact" class="btn btn--primary pricing-card__btn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container contact__container">
+            <h2 class="contact__heading">READY TO TRANSFORM?</h2>
+            <p class="contact__subheading">5 minutes from town center • Just off Great North Road</p>
+            <div class="contact__info">
+                <p>📍 <strong>ELITE FITNESS GYM</strong><br>Great North Road, Lusaka 10101</p>
+                <p>📞 <strong>Call:</strong> +260 XXXXXXXXX</p>
+                <p>💬 <strong>WhatsApp:</strong> <a href="#" onclick="whatsappChat()">Message us directly</a></p>
+            </div>
+            <a href="#" onclick="whatsappChat()" class="btn btn--primary btn--large">JOIN NOW ON WHATSAPP</a>
+            <div class="contact__form">
+                <h3>Or Enter Your Email</h3>
+                <form id="lead-form" onsubmit="captureLead(event)">
+                    <input type="email" id="email" placeholder="your@email.com" required>
+                    <button type="submit" class="btn btn--capture">Get Free Workout Plan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="#" onclick="whatsappChat()" class="whatsapp-float" title="Chat on WhatsApp">
+        💬
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__links">
+                <a href="#privacy" class="footer__link">Privacy Policy</a>
+                <a href="#terms" class="footer__link">Terms & Conditions</a>
+                <a href="#faq" class="footer__link">FAQ</a>
+                <a href="#instagram" class="footer__link">Instagram</a>
+            </div>
+            <p class="footer__copyright">&copy; 2024 ELITE FITNESS GYM. All rights reserved.</p>
+            <p class="footer__tagline">Transform your body. Transform your life.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
